@@ -25,3 +25,19 @@ int main()
     cin >> berat;
     cout << "Masukkan tinggi badan (m) = ";
     cin >> tinggi;
+
+    // bmi = berat / (tinggi * tinggi);
+    // if (bmi < 18.5)
+    // return "Berat Badan Kurang";
+    // else if (bmi < 25)
+    // return "Berat Badan Normal";
+    // else if (bmi < 30)
+    // return "Berat Badan Kelebihan";
+    // else
+    // return "Obesitas";
+    bmi = berat / (tinggi * tinggi);
+    // status = Status_BMI(bmi);
+    cout << "\nNilai BMI = " << bmi << endl;
+    cout << "Status = " << Status_BMI(bmi) << endl;
+    
+}
